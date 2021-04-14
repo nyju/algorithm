@@ -7,6 +7,7 @@ public class String_02 {
     public void solution(String value1) {
 
         for (int i = 0; i < value1.length(); i++) {
+
             char ch = value1.charAt(i);
 
             if (Character.isUpperCase(ch) == true) {
